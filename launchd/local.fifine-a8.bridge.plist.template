@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Installed by scripts/install.sh, which replaces __INSTALL_DIR__ with the real path. -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.fifine-a8.bridge</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__INSTALL_DIR__/fifine-bridge.app/Contents/MacOS/fifine-bridge</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+    <key>ProcessType</key>
+    <string>Interactive</string>
+    <key>StandardOutPath</key>
+    <string>__INSTALL_DIR__/bridge.log</string>
+    <key>StandardErrorPath</key>
+    <string>__INSTALL_DIR__/bridge.log</string>
+</dict>
+</plist>
