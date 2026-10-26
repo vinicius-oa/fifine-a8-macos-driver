@@ -96,7 +96,7 @@ Other A8 units, or other FIFINE models with the same chip, may behave the same w
 ## Install
 
 ```sh
-git clone <this repo> && cd fifine-a8-macos-driver
+git clone https://github.com/vinicius-oa/fifine-a8-macos-driver.git && cd fifine-a8-macos-driver
 scripts/install.sh
 ```
 
